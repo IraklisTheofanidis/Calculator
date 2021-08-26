@@ -155,6 +155,7 @@ for (let i = 0, length = buttons.length; i < length; i++) {
             }
             else if(operator==""){
                 document.getElementById("result").textContent =  firstNumber + button.textContent;
+                document.getElementById("typed").textContent =firstNumber + button.textContent;
                 firstNumber=parseFloat(document.getElementById("result").textContent);
                 
             }

@@ -81,3 +81,13 @@ body,html{
     #content #buttons .NaN{
         color:red;
     }
+
+    @media (max-width: 600px){
+#content{width:90%;}
+
+    }
+
+    @media (max-width: 400px){
+        #content #buttons .btn{ padding:5px 10px;
+        }
+    }
